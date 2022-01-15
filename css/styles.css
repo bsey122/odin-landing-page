@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header,
+.footer,
+.hero {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.main-text,
+.logo,
+.btn,
+.btn-2,
+.footer {
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a,
+.sub-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.hero-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    width: 350px;
+}
+
+.image {
+    width: 450px;
+}
+
+.btn,
+.btn-2,
+.cta {
+    background-color: #3882f6;
+}
+
+.btn,
+.btn-2 {
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+}
+
+.btn-2 {
+    border: 2px solid #f9faf8;
+}
+
+.info-head,
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.cta {
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 1000px;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 35px 0;
+}
+
+.cta-head,
+.cta-text {
+    margin: 0;
+}
+
+.info-head {
+    font-weight: bolder;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote-text {
+    width: 825px;
+}
+
+.quote-person {
+    width: 825px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.info-media {
+    display: flex;
+    gap: 15px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.img-text {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
